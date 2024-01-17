@@ -19,7 +19,13 @@ def multiplicacion (a,b):
     c = a * b
     print("La multiplicación  de a * b es: ",c)
     
-multiplicacion(2,3)
+# multiplicacion(2,3)
 
 def division (a,b):
-    pass
+    if b == 0:
+        print("La división no se puede realizar")
+    else:
+        c = a/b
+        print("La división de a / b es: ",c)
+division(2,4)
+    
